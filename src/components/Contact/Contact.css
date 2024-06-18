@@ -1,0 +1,55 @@
+.Contact .container2{
+    max-width: 40em;
+    padding: 4em 2em;
+    margin: 5em auto;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.Contact .container2 p:first-of-type{
+    color: var(--cor-principal);
+}
+
+.Contact .container2 p:last-of-type{
+    margin: 1em 0;
+    color: var(--cor-2);
+}
+
+.Contact .container2 h1{
+    font-size: 2.5em;
+}
+
+.Contact .container2 > a{
+    margin: 0 auto;
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    border: 1px solid var(--cor-principal);
+    border-radius: 0.5em;
+    background: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    display: block;
+    width: fit-content;
+}
+
+.Contact .container2 > a:hover{
+    background-color: var(--cor-principal);
+}
+
+.Contact .container2 .optionsOfContact{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: fit-content;
+    margin: 3em auto;
+}
+
+.Contact .container2 .optionsOfContact svg{
+    color: white;
+    font-size: 2em;
+}
+
+
+.Contact .container2 .optionsOfContact a:hover > svg{
+    color: var(--cor-principal);
+}

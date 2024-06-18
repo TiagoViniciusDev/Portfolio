@@ -1,0 +1,130 @@
+.ProjectContainer{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.ProjectContainer > a{
+    width: 60%;
+    height: 20em;
+}
+
+.ProjectContainer .projectImg .projectImg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top left;
+}
+
+.ProjectContainer .projectInfo{
+    width: 40%;
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ProjectContainer .projectInfo .projectHeader > p{
+    font-family: 'Space Mono', monospace;
+    color: var(--cor-principal);
+    font-size: 0.7em;
+}
+
+.ProjectContainer .projectInfo .projectDesc{
+    z-index: 99;
+    background-color: var(--cor-3);
+    width: 115%;
+    min-height: 8em;
+    transform: translateX(-11.5%);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    text-align: initial;
+}
+
+.ProjectContainer .projectInfo .projectDesc p{
+    color: var(--cor-2);
+    font-size: 0.9em;
+    padding: 0.2em 0;
+}
+
+.ProjectContainer .projectInfo .projectDesc p a{
+    color: var(--cor-principal);
+}
+
+.ProjectContainer .projectInfo .projectSkills{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 0.7em;   
+}
+
+.ProjectContainer .projectInfo .projectSkills p{
+    color: var(--cor-2);
+    font-size: 0.9em;
+}
+
+.ProjectContainer .projectInfo .projectLinks{
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+
+.ProjectContainer .projectInfo .projectLinks svg{
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+}
+
+.ProjectContainer .projectInfo .projectLinks svg:hover{
+    color: var(--cor-principal);
+}
+
+
+/* LEFT */
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.left .projectInfo{
+    text-align: left;
+}
+
+.left .projectInfo .projectDesc{
+    transform: none;
+}
+
+.left .projectInfo .projectSkills{
+    justify-content: flex-start;
+}
+
+.left .projectInfo .projectLinks{
+    justify-content: flex-start;
+} 
+
+@media screen and (max-width: 568px) {
+    .ProjectContainer{
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .ProjectContainer > a{
+        width: 100%;
+    }
+
+    .ProjectContainer .projectInfo{
+        width: 100%;
+        gap: 1em;
+    }
+
+
+    .ProjectContainer .projectInfo .projectDesc{
+        width: 90%;
+        transform: translateX(11%);
+    }
+
+    .left .projectInfo .projectDesc{
+        transform: none;
+    }
+}

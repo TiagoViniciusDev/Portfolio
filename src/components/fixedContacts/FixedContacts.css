@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+.FixedContacts .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FixedContacts .contacts{
+    position: fixed;
+    bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.FixedContacts .contacts svg{
+    font-size: 1.5em;
+    color: white;
+}
+
+.FixedContacts .contacts a:hover > svg{
+    color: var(--cor-principal);
+}
+
+@media screen and (max-width: 980px) {
+    .FixedContacts{
+        display: none;
+    }
+}

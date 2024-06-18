@@ -1,0 +1,81 @@
+.Work{
+    padding-top: 7em;
+}
+
+.Work .container2 > h2{
+    margin-bottom: 1em;
+}
+
+.Work .workContent{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.Work .workContent .workDesc p a{
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+.Work .workContent .imgContainer{
+    width: 80%;
+}
+
+.Work .workContent .idealWebsitesImg{
+    width: 100%;
+    height: 17em;
+    background-image: url(../../../public/imgs/idealwebsites.webp);
+    background-size: 100% auto;
+}
+
+.Work .workContent .workDesc .freelancerSocialMedia{
+    margin-top: 1em;
+    padding: 1em 1em;
+    background-color: var(--cor-3);
+    border-radius: 0.5em;
+}
+
+.Work .workContent .workDesc .freelancerSocialMedia h3 span{
+    color: var(--cor-principal);
+}
+
+.Work .workContent .workDesc .workIcones{
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    margin-top: 1em;
+}
+
+.Work .workContent .workDesc .workIcones svg{
+    font-size: 1.8em;
+    color: white;
+}
+
+.Work .workContent .workDesc .workIcones a:hover > svg{
+    color: var(--cor-principal);
+}
+
+@media screen and (max-width: 568px) {
+    .Work .workContent{
+        flex-direction: column-reverse;
+    }
+
+    .Work .workContent .imgContainer{
+        width: 100%;
+    }
+
+    .Work .workContent .workDesc .freelancerSocialMedia{
+        text-align: center;
+    }
+
+    .Work .workContent .workDesc .workIcones{
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 1.5em;
+        gap: 1.5em;
+    }
+
+    .Work .workContent .workDesc .workIcones svg{
+        font-size: 2.5em;
+    }
+}

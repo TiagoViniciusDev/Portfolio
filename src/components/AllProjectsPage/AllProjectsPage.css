@@ -1,0 +1,21 @@
+.AllProjectsPage > .container2 > h2{
+  margin-top: 2em;
+  padding: 0.5em 0;
+}
+
+.AllProjectsPage > .container2 > p{
+    margin: 1em 0;
+    color: var(--cor-2);
+}
+
+.AllProjectsPage > .container2 > p > a{
+    color: var(--cor-principal);
+}
+
+.AllProjectsPage .container2 .allProjects{
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+    margin: 4em 0;
+}
+

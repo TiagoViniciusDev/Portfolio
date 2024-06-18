@@ -1,0 +1,87 @@
+.About{
+    padding: 3em 0;
+}
+
+.About .container2 .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    padding-top: 1.5em;
+    width: 100%;
+}
+
+.About .container2 .info .desc p{
+    margin: 0.2em 0;
+}
+
+.About .container2 .info .desc p > span{
+    color: var(--cor-principal);
+    font-weight: 600;
+}
+
+.About .container2 .info .desc .skillsContainer h3{
+    margin: 1em 0;
+}
+
+
+.About .container2 .info .desc .skillsContainer .skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.About .container2 .info .desc .skillsContainer .skills .skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About .container2 .info .desc .skillsContainer .skills .skill svg{
+    font-size: 2.5em;
+}
+
+.About .container2 .info .desc .skillsContainer .skills .skill p{
+    font-size: 0.7em;
+    margin-top: 0.4em;
+}
+
+.About .container2 .info .desc .skillsContainer > .skills > .skill:hover > svg{
+    color: var(--cor-principal);
+}
+
+.About .container2 .info .profileImg{
+    position: relative;
+    width: fit-content;
+    margin-right: 2em;
+}
+
+.About .container2 .info .profileImg > div{
+    width: 20em;
+    height: 20em;
+    border-radius: 1em;
+}
+
+.About .container2 .info .profileImg .img{
+    background-color: white;
+    z-index: 9;
+    position: relative;
+    background-image: url(../../../public/imgs/perfil.webp);
+    background-size: cover;
+    background-position: top left;
+}
+
+.About .container2 .info .profileImg .imgBorder{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    border: 2px solid var(--cor-principal);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 568px) {
+    .About .container2 .info{
+        flex-direction: column-reverse;
+        gap: 4em;
+    }
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+.Home{
+    height: 100vh;
+}
+
+.Home .container2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Home .container2 p{
+    font-family: 'Space Mono', monospace;
+}
+
+.Home .container2 p:first-of-type{
+    color: var(--cor-principal);
+    margin-bottom: 1em;
+}
+
+.Home .container2 p:last-of-type{
+    color: var(--cor-2);
+    font-size: 0.7em;
+    margin-top: 1em;
+}
+
+.Home .container2 h1{
+    font-size: 4em;
+}
+
+.Home .container2 h1:last-of-type{
+    font-size: 3.5em;
+    color: var(--cor-principal);
+}
+
+.Home .container2 > a{
+    padding: 0.5em 1em;
+    background: none;
+    color: white;
+    border: 1px solid var(--cor-principal);
+    border-radius: 0.5em;
+    margin-top: 1em;
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    display: block;
+    width: fit-content;
+}
+
+.Home .container2 a:hover{
+    background-color: var(--cor-principal);
+}
+
+
+@media screen and (max-width: 520px){
+    /* .Home{
+        height: 80vh;
+    } */
+
+    .Home .container2 h1{
+        font-size: 3em;
+    }
+
+    .Home .container2 h1:last-of-type{
+        font-size: 2.5em;
+    }
+}

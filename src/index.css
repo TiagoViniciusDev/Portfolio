@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+  --cor-principal: rgb(6, 147, 227);
+  --cor-2: rgb(163, 168, 195);
+  --cor-3: rgb(26, 19, 54);
+  --background: rgb(18, 14, 38);
+}
+
+body{
+  background-color: var(--background);
+  color: white;
+}
+
+html, body{
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 94%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.container2{
+  width: 75%;
+  margin: 0 auto;
+  max-width: calc(1400*0.75px);
+}
+
+.title{
+  padding: 0.3em 0;
+  border-bottom: 1px solid var(--cor-principal);
+  display: flex;
+  align-items: center;
+}
+
+.title svg{
+  rotate: 90deg;
+}
+
+/* ScrollBar Personalizada */
+
+  /* Works on Firefox */
+  * {
+    scrollbar-color: var(--cor-principal) var(--scrollTrack);
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: var(--scrollBarCorDeFundo);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--cor-principal);
+    border-radius: 20px;
+    border: 3px solid var(--scrollBarCorDeFundo);
+  }
+  
+  @media screen and (max-width: 940px) {
+    .container2{
+      width: 92%;
+      max-width: 1400px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body{
+      font-size: 12px;
+    }
+  }
