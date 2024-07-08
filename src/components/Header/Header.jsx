@@ -4,14 +4,22 @@ import { IoClose } from "react-icons/io5";
 
 import { useEffect, useState } from "react";
 
+//AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function Header() {
 
+    AOS.init();
+
    const [menuMobile, setMenuMobile] = useState(false)
+   const [animationCloseMenuMobile, setAnimationCloseMenuMobile] = useState(false)
 
    //Sistema Janela Modal
     useEffect(() => {
         document.getElementById('MOBILENAV').addEventListener('click', function(){
             setMenuMobile(false)
+            closeMobileNavAnimation()
         })
 
         document.getElementById('ToggleMobileMenu').addEventListener('click', function(e){
@@ -21,9 +29,19 @@ function Header() {
 
         window.addEventListener('click', function(){
             setMenuMobile(false)
+            closeMobileNavAnimation()
         })
     },[])
 
+    function closeMobileNavAnimation(){
+        setMenuMobile(false)
+
+        setAnimationCloseMenuMobile(true)
+
+        setTimeout(function() {
+            setAnimationCloseMenuMobile(false)
+        }, 1100);
+    }
 
     return (
         <header className="Header">
@@ -39,8 +57,8 @@ function Header() {
                 <div className="toggleMobileMenu" id="ToggleMobileMenu">
                     <IoIosMenu />
                 </div>
-                <div className="mobileNav" style={menuMobile ? {display: 'flex'} : {display: 'none'}}>
-                    <IoClose onClick={() => {setMenuMobile(false)}}/>
+                <div className={`mobileNav ${menuMobile ? "showNavAnimation" : ""} ${animationCloseMenuMobile ? "hiddenNavAnimation" : ""}`} >
+                    <IoClose onClick={() => {closeMobileNavAnimation()}}/>
                     <nav id="MOBILENAV">
                         <a href="#home">Home</a>
                         <a href="#sobre">Sobre</a>
@@ -49,6 +67,7 @@ function Header() {
                         <a href="#contato">Contato</a>
                     </nav>
                 </div>
+                <div className="shadown" style={menuMobile ? {display: "block"} : {display: "none"}}></div>
             </div>
         </header>
     );
