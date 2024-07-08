@@ -18,7 +18,7 @@
 body{
   background-color: var(--background);
   color: white;
-  overflow-x: hidden;
+  max-width: 100%;
 }
 
 html, body{

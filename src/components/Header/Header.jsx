@@ -18,7 +18,6 @@ function Header() {
    //Sistema Janela Modal
     useEffect(() => {
         document.getElementById('MOBILENAV').addEventListener('click', function(){
-            setMenuMobile(false)
             closeMobileNavAnimation()
         })
 
@@ -27,10 +26,10 @@ function Header() {
             e.stopPropagation()
         })
 
-        window.addEventListener('click', function(){
-            setMenuMobile(false)
+        document.getElementById('OutMenuMobile').addEventListener('click', function(e){
             closeMobileNavAnimation()
         })
+       
     },[])
 
     function closeMobileNavAnimation(){
@@ -67,7 +66,7 @@ function Header() {
                         <a href="#contato">Contato</a>
                     </nav>
                 </div>
-                <div className="shadown" style={menuMobile ? {display: "block"} : {display: "none"}}></div>
+                <div id="OutMenuMobile" className="shadown" style={menuMobile ? {display: "block"} : {display: "none"}}></div>
             </div>
         </header>
     );
