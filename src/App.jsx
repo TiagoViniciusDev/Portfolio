@@ -14,8 +14,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/tiagovinicius.com' element={<Layout />}/>
-          <Route path='tiagovinicius.com/projetos' element={<AllProjectsPage />}/>
+          <Route path='/' element={<Layout />}/>
+          <Route path='/projetos' element={<AllProjectsPage />}/>
         </Routes>
       </BrowserRouter>
     </div>
