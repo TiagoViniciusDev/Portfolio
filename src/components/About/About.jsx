@@ -24,8 +24,8 @@ function About() {
 
             <div className='info'>
                 <div className='desc'>
-                    <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 22 anos.</p>
-                    <p>Dou vida as minhas ideias usando <span>React</span> e <span>Node</span> criando sites otimizados de acordo com a demanda</p>
+                    <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 23 anos.</p>
+                    <p>Sou um Desenvolvedor FullStack, trabalho criando projetos responsivos e otimizados usando <span>React</span> e <span>Node</span></p>
                     <div className='skillsContainer'>
                         <h3>Habilidades</h3>
                         <div className='skills'>
