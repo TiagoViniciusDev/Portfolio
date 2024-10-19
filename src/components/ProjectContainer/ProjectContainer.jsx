@@ -4,7 +4,7 @@ import { TbExternalLink } from "react-icons/tb";
 
 function ProjectContainer({direction, data}) {
 
-  const {name, gitName, fileName, desc, skills} = data
+  const {name, gitName, fileName, desc, skills, githubPages} = data
 
   return (
     <div className={`ProjectContainer ${direction}`} data-aos="fade-right" data-aos-duration="1000">
@@ -33,12 +33,17 @@ function ProjectContainer({direction, data}) {
                     rel="noreferrer" 
                     target='_black'
                 ><IoLogoGithub/></a>
-                <a 
-                    href={`https://tiagoviniciusdev.github.io/${gitName}/`} 
-                    title='Acessar Projeto' 
-                    rel="noreferrer" 
-                    target='_black'
-                ><TbExternalLink /></a>
+                {
+                    githubPages == true ?                 
+                    <a 
+                        href={`https://tiagoviniciusdev.github.io/${gitName}/`} 
+                        title='Acessar Projeto' 
+                        rel="noreferrer" 
+                        target='_black'
+                        ><TbExternalLink />
+                    </a> 
+                    : ""
+                }
             </div>
         </div>
     </div>
