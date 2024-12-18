@@ -60,7 +60,7 @@ function About() {
                             </div>
                             <div className='skill'>
                                 <SiTailwindcss />
-                                <p>Tailwind</p>
+                                <p>TailwindCSS</p>
                             </div>
                         </div>
                     </div>
