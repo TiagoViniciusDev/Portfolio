@@ -3,8 +3,9 @@ import './About.css'
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoGithub } from "react-icons/io";
-import { SiRedux } from "react-icons/si";
 import { TiArrowSortedUp } from "react-icons/ti";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiTailwindcss } from "react-icons/si";
 
 //AOS
 import AOS from 'aos';
@@ -42,12 +43,12 @@ function About() {
                                 <p>JavaScript</p>
                             </div>
                             <div className='skill'>
-                                <FaReact />
-                                <p>ReactJS</p>
+                                <BiLogoTypescript />
+                                <p>TypeScript</p>
                             </div>
                             <div className='skill'>
-                                <SiRedux />
-                                <p>Redux</p>
+                                <FaReact />
+                                <p>ReactJS</p>
                             </div>
                             <div className='skill'>
                                 <IoLogoGithub />
@@ -56,6 +57,10 @@ function About() {
                             <div className='skill'>
                                 <FaNodeJs />
                                 <p>NodeJS</p>
+                            </div>
+                            <div className='skill'>
+                                <SiTailwindcss />
+                                <p>Tailwind</p>
                             </div>
                         </div>
                     </div>
