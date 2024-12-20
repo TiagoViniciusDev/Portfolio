@@ -6,6 +6,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { TiArrowSortedUp } from "react-icons/ti";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiTailwindcss } from "react-icons/si";
+import { SiExpo } from "react-icons/si";
 
 //AOS
 import AOS from 'aos';
@@ -49,6 +50,14 @@ function About() {
                             <div className='skill'>
                                 <FaReact />
                                 <p>ReactJS</p>
+                            </div>
+                            <div className='skill'>
+                                <FaReact />
+                                <p>React Native</p>
+                            </div>
+                            <div className='skill'>
+                                <SiExpo />
+                                <p>Expo</p>
                             </div>
                             <div className='skill'>
                                 <IoLogoGithub />
