@@ -14,7 +14,7 @@ function Home() {
         <div className="container2">
             <p>Olá, eu sou</p>
             <h1>Tiago Vinicius.</h1>
-            <h1>Desensvolvedor FullStack.</h1>
+            <h1>Desenvolvedor FullStack.</h1>
             <p>Desenvolvo websites responsivos usando React e Node.</p>
             <a href={Data.WhatsappLink} rel="noreferrer" target="_blank" data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="top">Entre em contato</a>
         </div>
