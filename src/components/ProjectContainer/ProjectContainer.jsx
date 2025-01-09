@@ -8,9 +8,9 @@ function ProjectContainer({direction, data}) {
 
   return (
     <div className={`ProjectContainer ${direction}`} data-aos="fade-right" data-aos-duration="1000">
-        <a rel="noreferrer" target='_black' className='projectImg'>
+        <div className='projectImgContainer'>
             <div className='projectImg' style={{'backgroundImage': `url(projectsImgs/${fileName})`}}></div>
-        </a>
+        </div>
         <div className='projectInfo'>
             <div className='projectHeader'>
                 <p>Projeto em destaque</p>
