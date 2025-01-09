@@ -34,7 +34,12 @@
     color: var(--cor-principal);
 }
 
-.Home .container2 > a{
+.Home .container2 > div{
+    display: flex;
+    gap: 1em;
+}
+
+.Home .container2 > div > a{
     padding: 0.5em 1em;
     background: none;
     color: white;
@@ -45,23 +50,37 @@
     font-size: 1em;
     display: block;
     width: fit-content;
+    font-weight: 550;
 }
 
-.Home .container2 a:hover{
+.Home .container2 > div a:nth-of-type(2){
     background-color: var(--cor-principal);
+}
+
+.Home .container2 > div a:hover{
+    background-color: var(--cor-principal);
+}
+
+.Home .container2 > div a:nth-of-type(2):hover{
+    opacity: 0.8;
 }
 
 
 @media screen and (max-width: 520px){
-    /* .Home{
-        height: 80vh;
-    } */
+    .Home{
+        height: auto;
+        padding-top: 20em;
+    }
+
+    .Home .container2{
+        top: 0;
+    }
 
     .Home .container2 h1{
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .Home .container2 h1:last-of-type{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 }

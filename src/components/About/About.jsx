@@ -6,7 +6,9 @@ import { IoLogoGithub } from "react-icons/io";
 import { TiArrowSortedUp } from "react-icons/ti";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiTailwindcss } from "react-icons/si";
-import { SiExpo } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
+import { FaAws } from "react-icons/fa6";
 
 //AOS
 import AOS from 'aos';
@@ -27,7 +29,7 @@ function About() {
             <div className='info'>
                 <div className='desc'>
                     <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 23 anos.</p>
-                    <p>Sou um Desenvolvedor FullStack, trabalho criando projetos responsivos e otimizados usando <span>React</span> e <span>Node</span></p>
+                    <p>Sou um <span>Desenvolvedor web FullStack</span> (Frontend e Backend), apaixonado pela área de tecnologia</p>
                     <div className='skillsContainer'>
                         <h3>Habilidades</h3>
                         <div className='skills'>
@@ -56,8 +58,8 @@ function About() {
                                 <p>React Native</p>
                             </div>
                             <div className='skill'>
-                                <SiExpo />
-                                <p>Expo</p>
+                                <SiNextdotjs />
+                                <p>Next</p>
                             </div>
                             <div className='skill'>
                                 <IoLogoGithub />
@@ -70,6 +72,14 @@ function About() {
                             <div className='skill'>
                                 <SiTailwindcss />
                                 <p>TailwindCSS</p>
+                            </div>
+                            <div className='skill'>
+                                <FaDocker />
+                                <p>Docker</p>
+                            </div>
+                            <div className='skill'>
+                                <FaAws />
+                                <p>AWS</p>
                             </div>
                         </div>
                     </div>

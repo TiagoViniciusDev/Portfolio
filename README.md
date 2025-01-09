@@ -10,15 +10,18 @@ npm install
 npm run dev
 ```
 
+### Seu cúrriculo
+Dentro da pasta "cv" dentro de "public" coloque seu cúrriculo (curriculo.docx)
+
 ### Seus Links
 Edite o arquivo "Const.js" e insirá suas informações
 
 ```bash
 const Data = {
-    WhatsappLink: LINK_PARA_DIRECIONAR_PARA_SEU_WHATSAPP (https://wa.me/SEU_NUMERO?text=Ol%C3%A1%2C+vi+seu+portf%C3%B3lio+),
     LinkedinLink: LINK_DO_SEU_LINKEDIN,
     GitHubLink: LINK_DO_SEU_GITHUB,
     EmailLink: LINK_PARA_DIRECIONAR_PARA_SEU_EMAIL (mailto:SEU_EMAIL),
+    curriculo: NOME_DO_ARQUIVO_DO_SEU_CURRICULO
 }
 
 export default Data
@@ -74,12 +77,6 @@ Edite o href dos links na div "projectLinks" dentro do arquivo "ProjectContainer
 </div>
 ```
 
-### Seu cúrriculo
-Dentro da pasta "cv" dentro de "public" coloque seu cúrriculo
-Renomei ele para o nome "curriculo.docx"
-
 ### Sobre você
 Edite o arquivo "About.jsx" com seu nome, descrição profissional e habilidades
 Você pode importar icones para suas habilidades no site do React Icons
-
-Se ainda tiver alguma dúvida sobre como configurar o projeto entre em contato!

@@ -26,7 +26,7 @@ function Header() {
             e.stopPropagation()
         })
 
-        document.getElementById('OutMenuMobile').addEventListener('click', function(e){
+        document.getElementById('OutMenuMobile').addEventListener('click', function(){
             closeMobileNavAnimation()
         })
        
@@ -50,7 +50,7 @@ function Header() {
                     <a href="#home">Home</a>
                     <a href="#sobre">Sobre</a>
                     <a href="#projetos">Projetos</a>
-                    <a href="#trabalho">Trabalho</a>
+                    {/* <a href="#trabalho">Trabalho</a> */}
                     <a href="#contato">Contato</a>
                 </nav>
                 <div className="toggleMobileMenu" id="ToggleMobileMenu">
@@ -62,7 +62,7 @@ function Header() {
                         <a href="#home">Home</a>
                         <a href="#sobre">Sobre</a>
                         <a href="#projetos">Projetos</a>
-                        <a href="#trabalho">Trabalho</a>
+                        {/* <a href="#trabalho">Trabalho</a> */}
                         <a href="#contato">Contato</a>
                     </nav>
                 </div>

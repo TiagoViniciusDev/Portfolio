@@ -1,8 +1,17 @@
 const ProjectsData = [
     {   
-        name:"Loja itens no geral",
+        name:"E-commerce",
+        gitName:"Lojinha",
+        fileName:"Lojinha.webp",
+        desc: ["E-commerce com funcionalidades como carrinho, login, cadastro, painel do administrador, criação de produto dentre outras"],
+        skills: ["ReactJS", "NodeJS", "Mercado Pago", "AWS S3", "Google auth"],
+        githubPages: false
+    },
+
+    {   
+        name:"Marketplace",
         gitName:"payment-links-store",
-        fileName:"LojaItensNoGeral.png",
+        fileName:"LojaItensNoGeral.webp",
         desc: ["A aplicação consiste em uma loja, o usuário pode navegar entre os produtos e comprar o item desejado. Qualquer usúario cadastrato pode públicar produtos que então devem ser aprovados por algum administrador"],
         skills: ["ReactJS", "NodeJS", "Stripe"],
         githubPages: false
@@ -11,7 +20,7 @@ const ProjectsData = [
     {   
         name:"Portfolio Designer",
         gitName:"EMABGU",
-        fileName:"PortifolioDesigner.png",
+        fileName:"PortifolioDesigner.webp",
         desc: ["Trabalho freelancer realizado para um designer, apresentando diversas imagens de seus projetos. O site possui um design personalizado, com cores que harmonizam com a logomarca, e é totalmente responsivo."],
         skills: ["ReactJS", "JSX"],
         githubPages: true

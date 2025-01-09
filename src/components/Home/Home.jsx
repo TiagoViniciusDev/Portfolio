@@ -11,13 +11,16 @@ function Home() {
 
   return (
     <div className='Home' id='home'>
-        <div className="container2">
+        <section className="container2">
             <p>Olá, eu sou</p>
             <h1>Tiago Vinicius.</h1>
             <h1>Desenvolvedor FullStack.</h1>
-            <p>Desenvolvo websites responsivos usando React e Node.</p>
-            <a href={Data.WhatsappLink} rel="noreferrer" target="_blank" data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="top">Entre em contato</a>
-        </div>
+            <p>Programador empenhado a criar aplicações otimizadas e responsivas</p>
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="top">
+              <a href={Data.EmailLink} rel="noreferrer" target="_blank">Entre em contato</a>
+              <a href={`./cv/${Data.curriculo}`} download={Data.curriculo}>Currículo</a>
+            </div>
+        </section>
     </div>
   )
 }
