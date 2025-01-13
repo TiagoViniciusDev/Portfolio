@@ -9,6 +9,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
 import { FaAws } from "react-icons/fa6";
+import { SiJest } from "react-icons/si";
 
 //AOS
 import AOS from 'aos';
@@ -80,6 +81,10 @@ function About() {
                             <div className='skill'>
                                 <FaAws />
                                 <p>AWS</p>
+                            </div>
+                            <div className='skill'>
+                                <SiJest />
+                                <p>Jest</p>
                             </div>
                         </div>
                     </div>
