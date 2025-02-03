@@ -1,15 +1,12 @@
 import './About.css'
 
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
+import { FaAws } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoGithub } from "react-icons/io";
 import { TiArrowSortedUp } from "react-icons/ti";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiTailwindcss } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
-import { FaAws } from "react-icons/fa6";
-import { SiJest } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiJest, SiPrisma } from "react-icons/si";
 
 //AOS
 import AOS from 'aos';
@@ -77,6 +74,10 @@ function About() {
                             <div className='skill'>
                                 <FaDocker />
                                 <p>Docker</p>
+                            </div>
+                            <div className='skill'>
+                                <SiPrisma />
+                                <p>Prisma ORM</p>
                             </div>
                             <div className='skill'>
                                 <FaAws />
