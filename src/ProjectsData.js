@@ -18,6 +18,24 @@ const ProjectsData = [
     },
 
     {   
+        name:"Pokemon TCG",
+        gitName:"Pokemon",
+        fileName:"PokemonTCG.webp",
+        desc: ["Buscador de cartas de Pokemon TCG (Jogo de cartas de pokémon). Consome uma api com mais de 18 mil cartas", "É possivél buscar por nome, raridade e tipo, alterar entre os temas claro e escuro e comparar atributos de cartas"],
+        skills: ["ReactJS", "TSX", "TypeScript", "Api"],
+        githubPages: false
+    },
+
+    {   
+        name:"Chat",
+        gitName:"Chat",
+        fileName:"Chat.webp",
+        desc: ["O projeto consiste em um chat em tempo real, onde você escolhe o nome de usuário e envia uma mensagem."],
+        skills: ["NextJS", "NodeJS", "TailwindCSS", "Socket.io"],
+        githubPages: false
+    },
+
+    {   
         name:"Portfolio Designer",
         gitName:"EMABGU",
         fileName:"PortifolioDesigner.webp",
