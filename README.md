@@ -46,35 +46,11 @@ const ProjectsData = [
         fileName: NOME_DO_ARQUIVO_IMG_DO_SEU_PROJETO,
         desc: [DESCRIÇÃO_DO_PROJETO],
         skills: [HABILIDADES_USADAS_NO_PROJETO],
-        githubPages: false (Se o projeto está ou não no ar através do github pages)
+        page: [Link_PARA_SEU_PROJETO_NO_AR] (Se não estiver no ar coloque false)
     }
 ]
 
 export default ProjectsData
-```
-
-Edite o href dos links na div "projectLinks" dentro do arquivo "ProjectContainer.jsx" inserindo seu github
-
-```bash
-<div className='projectLinks'>
-    <a 
-        href={`https://github.com/SEU_NOME_DE_USUÁRIO_NO_GIT_HUB/${gitName}`} 
-        title='Ver no Github' 
-        rel="noreferrer" 
-        target='_black'
-    ><IoLogoGithub/></a>
-    {
-        githubPages == true ?                 
-        <a 
-            href={`https://SEU_NOME_DE_USUÁRIO_NO_GIT_HUB.github.io/${gitName}/`} 
-            title='Acessar Projeto' 
-            rel="noreferrer" 
-            target='_black'
-            ><TbExternalLink />
-        </a> 
-        : ""
-    }
-</div>
 ```
 
 ### Sobre você

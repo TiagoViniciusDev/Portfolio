@@ -15,7 +15,7 @@ function AllProjectsPage() {
             <div className='allProjects'>
                 {ProjectsData.map((data, index) => (
                     <ProjectContainer
-                        key={index}
+                        key={index + Math.floor(Math.random() * 1000)}
                         direction={index % 2 === 0 ? "left" : "right"}
                         data={data}
                     />
