@@ -6,7 +6,7 @@ const Data = {
     LinkedinLink: 'https://www.linkedin.com/in/tiagoviniciusdev/',
     GitHubLink: 'https://github.com/TiagoViniciusDev',
     EmailLink: 'mailto:tiagoviniciusdev@gmail.com',
-    curriculo: 'Tiago_vinicius.pdf'
+    curriculo: 'Tiago_Vinicius.pdf'
 }
 
 export default Data
