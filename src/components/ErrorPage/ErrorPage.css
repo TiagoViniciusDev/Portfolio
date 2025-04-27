@@ -1,0 +1,66 @@
+.ErrorPage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    max-width: 1200px !important;
+    padding: 0 4em;
+}
+
+.ErrorPage .text{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ErrorPage .text h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.ErrorPage .text p{
+    font-weight: 600;
+}
+
+.ErrorPage .text .btn{
+    display: block;
+    padding: 0.5em 2em;
+    text-align: center;
+    border: 1px solid aqua;
+    border-radius: 1em;
+    margin: 1em auto;
+    width: fit-content;
+    color: white;
+    font-weight: 600;
+}
+
+.ErrorPage .text .btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.ErrorPage img{
+    width: 30%;
+}
+
+@media screen and (max-width: 1000px){
+    .ErrorPage{
+        padding: 0 2em;
+    }
+
+    .ErrorPage img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 678px){
+    .ErrorPage{
+        padding: 0;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .ErrorPage img{
+        width: 40%;
+    }
+}
