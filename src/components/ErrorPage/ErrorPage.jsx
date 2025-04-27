@@ -8,7 +8,7 @@ function ErrorPage(){
                 <p>Página não encontrada</p>
                 <a className='btn' href="/">Voltar ao início</a>
             </div>
-            <img src="/imgs/errorImg2.png" alt="errorImg" />
+            <img src="/imgs/errorImg.webp" alt="errorImg" />
         </div>
     )
 }
