@@ -1,10 +1,19 @@
 const ProjectsData = [
     {   
+        name:"Resumo Rápido",
+        gitName:"Resumo-Rapido",
+        fileName:"ResumoRapido.webp",
+        desc: ["Resumos de videos no Youtube usando Inteligencia Artificial. Através do Gemine em conjunto com o pacote 'youtube-transcript' responsavél por extrair a transcrição do video"],
+        skills: ["ReactJS", "NodeJS", "Inteligência Artificial", "Gemine"],
+        page: false  //Indica se o projeto está ou não no ar, pronto para ser acessado por link
+    },
+
+    {   
         name:"E-commerce",
         gitName:"Lojinha",
         fileName:"Lojinha.webp",
         desc: ["E-commerce com funcionalidades como carrinho, login, cadastro, painel do administrador, criação de produto dentre outras"],
-        skills: ["ReactJS", "NodeJS", "Mercado Pago", "AWS S3", "Google auth"],
+        skills: ["ReactJS", "NodeJS", "Mercado Pago", "AWS S3"],
         page: false
     },
 
