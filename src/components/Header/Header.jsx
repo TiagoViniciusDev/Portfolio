@@ -51,7 +51,6 @@ function Header() {
                     <a href="#sobre">Sobre</a>
                     <a href="#projetos">Projetos</a>
                     {/* <a href="#trabalho">Trabalho</a> */}
-                    <a href="#contato">Contato</a>
                 </nav>
                 <div className="toggleMobileMenu" id="ToggleMobileMenu">
                     <IoIosMenu />
@@ -63,7 +62,6 @@ function Header() {
                         <a href="#sobre">Sobre</a>
                         <a href="#projetos">Projetos</a>
                         {/* <a href="#trabalho">Trabalho</a> */}
-                        <a href="#contato">Contato</a>
                     </nav>
                 </div>
                 <div id="OutMenuMobile" className="shadown" style={menuMobile ? {display: "block"} : {display: "none"}}></div>

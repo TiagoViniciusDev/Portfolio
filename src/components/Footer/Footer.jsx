@@ -1,16 +1,16 @@
-import './Contact.css'
+import './Footer.css'
 
 import Data from '../../Const'
 
-function Contact() {
+function Footer() {
 
   return (
-    <section className='Contact' id='contato'>
+    <footer className='Footer' id='contato'>
         <div className='container2'>
           <p>Desenvolvido por <a href={Data.LinkedinLink} rel="noreferrer" target="_blank">Tiago Vinicius</a></p>
         </div>
-    </section>
+    </footer>
   )
 }
 
-export default Contact
+export default Footer

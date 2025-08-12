@@ -1,10 +1,10 @@
-.Contact .container2{
+.Footer .container2{
     margin-top: 10em;
     margin-bottom: 3em;
     text-align: center;
 }
 
-.Contact .container2 a{
+.Footer .container2 a{
     color: var(--cor-principal);
     font-weight: 600;
     cursor: pointer;

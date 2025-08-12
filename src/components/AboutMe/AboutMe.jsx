@@ -1,4 +1,4 @@
-import './About.css'
+import './AboutMe.css'
 
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -11,12 +11,12 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function About() {
+function AboutMe() {
 
   AOS.init();
 
   return (
-    <section className='About' id='sobre'>
+    <section className='AboutMe' id='sobre'>
         <div className='container2'>
             <h2 className='title'>
                 <TiArrowSortedUp />
@@ -87,4 +87,4 @@ function About() {
   )
 }
 
-export default About
+export default AboutMe
