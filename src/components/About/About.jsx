@@ -1,12 +1,11 @@
 import './About.css'
 
 import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
-import { FaAws } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoGithub } from "react-icons/io";
 import { TiArrowSortedUp } from "react-icons/ti";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiTailwindcss, SiNextdotjs, SiJest, SiPrisma } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 //AOS
 import AOS from 'aos';
@@ -26,8 +25,8 @@ function About() {
 
             <div className='info'>
                 <div className='desc'>
-                    <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 23 anos.</p>
-                    <p>Sou um <span>Desenvolvedor web FullStack</span> (Frontend e Backend), apaixonado pela área de tecnologia</p>
+                    <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 24 anos. Sou um <span>Desenvolvedor Web FullStack</span> atualmente cursando <span>Engenharia de Software</span></p>
+                    <p></p>
                     <div className='skillsContainer'>
                         <h3>Habilidades</h3>
                         <div className='skills'>
@@ -74,18 +73,6 @@ function About() {
                             <div className='skill'>
                                 <FaDocker />
                                 <p>Docker</p>
-                            </div>
-                            <div className='skill'>
-                                <SiPrisma />
-                                <p>Prisma ORM</p>
-                            </div>
-                            <div className='skill'>
-                                <FaAws />
-                                <p>AWS</p>
-                            </div>
-                            <div className='skill'>
-                                <SiJest />
-                                <p>Jest</p>
                             </div>
                         </div>
                     </div>
