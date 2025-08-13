@@ -13,6 +13,7 @@
   --cor-2: rgb(163, 168, 195);
   --cor-3: rgb(26, 19, 54);
   --background: rgb(18, 14, 38);
+  --MaxContainerSize: 1700px;
 }
 
 body{
@@ -32,13 +33,13 @@ a{
 .container{
   width: 94%;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: var(--MaxContainerSize);
 }
 
 .container2{
   width: 75%;
   margin: 0 auto;
-  max-width: calc(1400*0.75px);
+  max-width: calc(var(--MaxContainerSize)*0.75);
 }
 
 .title{
