@@ -1,6 +1,7 @@
 .AboutMe{
     padding: 3em 0;
     overflow-x: hidden !important;
+    overflow-y: hidden !important; 
 }
 
 .AboutMe .container2 .info{
