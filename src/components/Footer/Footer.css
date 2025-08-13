@@ -9,3 +9,8 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.Footer .container2 p:nth-of-type(2){
+    color: var(--cor-2);
+    font-size: 0.9em;
+}
