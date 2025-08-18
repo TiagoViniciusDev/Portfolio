@@ -8,7 +8,7 @@ function Footer() {
     <footer className='Footer' id='contato'>
         <div className='container2'>
           <p>Desenvolvido por <a href={Data.LinkedinLink} rel="noreferrer" target="_blank">Tiago Vinicius</a></p>
-          <p>Programador FullStack</p>
+          <p>Desenvolvedor FullStack</p>
         </div>
     </footer>
   )
