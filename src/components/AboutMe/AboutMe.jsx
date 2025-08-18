@@ -25,8 +25,7 @@ function AboutMe() {
 
             <div className='info'>
                 <div className='desc'>
-                    <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 24 anos. Sou um <span>Desenvolvedor Web FullStack</span> atualmente cursando <span>Engenharia de Software</span></p>
-                    <p></p>
+                    <p>Olá, me chamo <span>Tiago Vinicius</span>, tenho 24 anos e sou estudante de <span>Engenharia de Software</span>. Busco oportunidades profissionais onde eu possa aplicar meus conhecimentos, aprender continuamente e evoluir como desenvolvedor.</p>
                     <div className='skillsContainer'>
                         <h3>Habilidades</h3>
                         <div className='skills'>
