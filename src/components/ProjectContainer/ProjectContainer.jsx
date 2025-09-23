@@ -32,10 +32,9 @@ function ProjectContainer({direction, data}) {
             <div className='projectLinks'>
                 <a 
                     href={`https://github.com/${userName}/${gitName}`} 
-                    title='Ver no Github' 
                     rel="noreferrer" 
                     target='_black'
-                ><IoLogoGithub/></a>
+                ><IoLogoGithub/><p>Ver no Github</p></a>
                 {
                     page !== false ?                 
                     <a 
@@ -43,7 +42,7 @@ function ProjectContainer({direction, data}) {
                         title='Acessar Projeto' 
                         rel="noreferrer" 
                         target='_black'
-                        ><TbExternalLink />
+                        ><TbExternalLink /><p>Acessar Projeto</p>
                     </a> 
                     : ""
                 }

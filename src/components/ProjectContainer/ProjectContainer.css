@@ -76,8 +76,23 @@
     gap: 1em;
 }
 
+.ProjectContainer .projectInfo .projectLinks a{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 0.3em 0.5em;
+    border-radius: 0.5em;
+}
+
+.ProjectContainer .projectInfo .projectLinks p{
+    color: white;
+    font-size: 0.8em;
+}
+
 .ProjectContainer .projectInfo .projectLinks svg{
-    font-size: 2em;
+    font-size: 1.5em;
     cursor: pointer;
     color: white;
 }
