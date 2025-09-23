@@ -11,6 +11,10 @@
     border: 1px solid var(--cor-principal);
     border-radius: 0.5em;
     font-family: 'Space Mono', monospace;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
 }
 
 .Projects > .container2 > a:hover{
@@ -18,7 +22,7 @@
 }
 
 .Projects .container2 .featuredProjects{
-   margin-bottom: 2em;
+   margin-bottom: 3em;
 }
 
 .Projects .container2 .featuredProjects > div:nth-of-type(2){

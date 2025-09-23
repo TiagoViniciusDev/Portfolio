@@ -3,6 +3,7 @@ import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import { Link } from 'react-router-dom'
 
 import { TiArrowSortedUp } from "react-icons/ti";
+import { MdAutoAwesomeMotion } from "react-icons/md";
 import ProjectsData from '../../ProjectsData';
 
 function Projects() {
@@ -29,7 +30,10 @@ function Projects() {
                     />
                 ))}
             </div>
-            <Link to="projetos" onClick={() => {scrollZero()}}>Ver mais projetos</Link>
+            <Link to="projetos" onClick={() => {scrollZero()}}>
+            <MdAutoAwesomeMotion />
+            Todos os projetos
+            </Link>
         </div>
     </section>
   )
