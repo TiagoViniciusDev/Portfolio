@@ -1,6 +1,6 @@
 import './AboutMe.css'
 
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaDocker, FaPython } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
 import { IoLogoGithub } from "react-icons/io";
 import { TiArrowSortedUp } from "react-icons/ti";
@@ -64,6 +64,10 @@ function AboutMe() {
                             <div className='skill'>
                                 <FaNodeJs />
                                 <p>NodeJS</p>
+                            </div>
+                            <div className='skill'>
+                                <FaPython />
+                                <p>Python</p>
                             </div>
                             <div className='skill'>
                                 <SiTailwindcss />
