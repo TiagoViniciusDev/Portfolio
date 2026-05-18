@@ -15,8 +15,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Layout />}/>
-          <Route path='/projetos' element={<AllProjectsPage />}/>
+          <Route path='/Portfolio/' element={<Layout />}/>
+          <Route path='/Portfolio/projetos' element={<AllProjectsPage />}/>
           <Route path='*' element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>

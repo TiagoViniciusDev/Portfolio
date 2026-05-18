@@ -11,7 +11,7 @@ function AllProjectsPage() {
         <FixedContacts />
         <div className='container2'>
             <h2 className='title'>Meus Projetos</h2>
-            <p>Confira abaixo alguns dos meus principais projetos. Para voltar para a página inicial <Link to="/">clique aqui!</Link></p>
+            <p>Confira abaixo alguns dos meus principais projetos. Para voltar para a página inicial <Link to="/Portfolio">clique aqui!</Link></p>
             <div className='allProjects'>
                 {ProjectsData.map((data, index) => (
                     <ProjectContainer
