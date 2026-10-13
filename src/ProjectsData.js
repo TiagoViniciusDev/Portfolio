@@ -3,8 +3,8 @@ const ProjectsData = [
         name:"Resumo Rápido",
         gitName:"Resumo-Rapido",
         fileName:"ResumoRapido.webp",
-        desc: ["Resumos de videos no Youtube usando Inteligencia Artificial. Através do Gemine em conjunto com o pacote 'youtube-transcript' responsavél por extrair a transcrição do video"],
-        skills: ["ReactJS", "NodeJS", "Inteligência Artificial", "Gemine"],
+        desc: ["Resumos de videos no Youtube usando Inteligencia Artificial. Através do Gemini em conjunto com o pacote 'youtube-transcript' responsavél por extrair a transcrição do video"],
+        skills: ["ReactJS", "NodeJS", "Inteligência Artificial", "Gemini"],
         page: false  //Indica se o projeto está ou não no ar, pronto para ser acessado por link
     },
 
